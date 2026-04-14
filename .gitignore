@@ -1,0 +1,16 @@
+# Binary
+/bin/
+fastscan
+
+# Test çıktıları
+*.log
+*.pcap
+scan_results/
+
+# Go
+vendor/
+*.test
+
+# IDE
+.vscode/
+.idea/

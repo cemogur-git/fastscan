@@ -1,0 +1,20 @@
+# Bağımlılık dosyaları
+go.mod
+go.sum
+vendor/
+
+# Build çıktıları
+bin/
+*.test
+*.out
+
+# Log ve tarama çıktıları
+*.log
+*.pcap
+*.csv
+*.json
+scan_results/
+
+# IDE
+.vscode/
+.idea/

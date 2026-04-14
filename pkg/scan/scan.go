@@ -51,7 +51,8 @@ type Result struct {
 	Port    uint16
 	State   State
 	Latency time.Duration
-	Banner  string // populated in Faz 5; empty for connect-scan results
+	Banner  string // populated by GrabBanner; empty for raw connect-scan results
+	Service string // populated by ServiceHint; empty when service is unknown
 }
 
 // ScanConfig carries the tuning parameters shared across all scan strategies.
